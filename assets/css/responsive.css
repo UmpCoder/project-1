@@ -1,0 +1,82 @@
+/* PC-CSS */
+@media (min-width: 1024px) {
+
+}
+/* END-PC-CSS */
+
+/* TABLET-CSS */
+@media (max-width: 1023px) and (min-width:740px) {
+
+}
+/* END-TABLET-CSS */
+
+/* MOBILE-CSS */
+@media (max-width: 739px) {
+    .nav li {
+        float: none;
+        border-top: 0.5px solid rgb(209, 209, 209);
+        box-sizing: border-box;
+    }
+
+    .slider-content {
+        display: none;
+    }
+
+    .col {
+        float: none;
+        padding: 0 8px;
+        box-sizing: border-box;
+    }
+
+    .three-col, .two-col {
+        width: 100%;
+        text-align: left;
+    }
+
+    .member-item {
+        text-align: center;
+    }
+
+    .member-img {
+        width: 60%;
+        margin-bottom: 16px;
+    }
+
+    .header-menu {
+        display: block;
+        border: none;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .header {
+        overflow: hidden;
+    }
+
+    .header.menu-open {
+        overflow: visible;
+        height: auto;
+    }
+
+    .header-menu-2{
+        display: none;
+        z-index: 2;
+        /* background-color: blue; */
+    }
+    .header-menu-2.show-2 {
+        display: block;
+    }
+   
+    .menu-icon-2 {
+        background-color: #ccc;
+        color: black;
+        line-height: 47px !important;
+    }
+
+    .nav> li> .home {
+        display: inline-block;
+    }
+}
+/* END-MOBILE-CSS */
